@@ -6,6 +6,7 @@ def bubbleSort(array):
     for j in range(0, len(array) - i - 1):
       # compara dois elementos vizinhos (adjacentes)
       # se usarmos "<" ao inves de ">" teremos uma array ordenado decrecentemente 
+      #teste Alexandre Olah 
       if array[j] < array[j + 1]:
         temp = array[j]
         array[j] = array[j+1]
